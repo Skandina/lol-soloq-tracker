@@ -6,11 +6,11 @@ A Python-based application designed to collect, track, and analyze match data fr
 Currently, the project focuses on retrieving ranked solo queue match data, extracting player statistics, and storing results in JSON format.
 
 ## Tech Stack
-Python  
-Riot Games API  
-Jenkins  
-Git / GitHub  
-JSON  
+* Python  
+* Riot Games API  
+* Jenkins  
+* Git / GitHub  
+* JSON  
 
 ## Features
 Retrieve recent ranked solo queue matches.
@@ -25,7 +25,7 @@ Securely manage API credentials using Jenkins Credentials.
 GitHub → Jenkins → Checkout → Install Dependencies → Run Python Script → Riot Games API → JSON
 
 ## Future Development
-Track multiple professional players.  
-Add competitive match data.  
-Implement performance statistics and data analysis.  
-Add automated testing and cloud deployment.  
+* Track multiple professional players.  
+* Add competitive match data.  
+* Implement performance statistics and data analysis.  
+* Add automated testing and cloud deployment.  
