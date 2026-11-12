@@ -13,12 +13,12 @@ Currently, the project focuses on retrieving ranked solo queue match data, extra
 * JSON  
 
 ## Features
-Retrieve recent ranked solo queue matches.
-Extract champion, KDA, and match results.
-Store match data in JSON.
-Prevent duplicate records.
-Automate Python execution and dependency installation through Jenkins.
-Securely manage API credentials using Jenkins Credentials.
+Retrieve recent ranked solo queue matches.  
+Extract champion, KDA, and match results.  
+Store match data in JSON.  
+Prevent duplicate records.  
+Automate Python execution and dependency installation through Jenkins.  
+Securely manage API credentials using Jenkins Credentials.  
 
 ## Pipeline
 <img width="1899" height="671" alt="image" src="https://github.com/user-attachments/assets/4be9a05b-6821-40e1-8ece-593a4b0c3a62" />
