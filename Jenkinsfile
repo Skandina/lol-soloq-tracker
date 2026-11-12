@@ -29,7 +29,7 @@ pipeline {
                     string(credentialsId: 'riot-api-key', variable: 'RIOT_API_KEY'),
                     string(credentialsId: 'faker-puuid', variable: 'FAKER_PUUID')
                 ]) {
-                    bat '"C:\\Python311\\python.exe" main.py'
+                    bat '"C:\\Python311\\python.exe" src\\main.py'
                 }
             }
         }
