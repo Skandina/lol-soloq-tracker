@@ -1,0 +1,42 @@
+[
+    {
+        "match_id": "KR_8421752997",
+        "champion": "Galio",
+        "kills": 7,
+        "deaths": 4,
+        "assists": 6,
+        "result": "Win"
+    },
+    {
+        "match_id": "KR_8421721409",
+        "champion": "Leblanc",
+        "kills": 2,
+        "deaths": 6,
+        "assists": 2,
+        "result": "Loss"
+    },
+    {
+        "match_id": "KR_8421541861",
+        "champion": "Rumble",
+        "kills": 8,
+        "deaths": 4,
+        "assists": 9,
+        "result": "Win"
+    },
+    {
+        "match_id": "KR_8420523502",
+        "champion": "Annie",
+        "kills": 7,
+        "deaths": 2,
+        "assists": 0,
+        "result": "Win"
+    },
+    {
+        "match_id": "KR_8420482763",
+        "champion": "Rell",
+        "kills": 0,
+        "deaths": 4,
+        "assists": 20,
+        "result": "Win"
+    }
+]

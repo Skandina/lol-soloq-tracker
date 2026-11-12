@@ -32,5 +32,4 @@ def get_matches():
 
     response.raise_for_status()
     match_ids = response.json()
-    print(match_ids)
     return match_ids
