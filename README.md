@@ -13,19 +13,18 @@ Currently, the project focuses on retrieving ranked solo queue match data, extra
 * JSON  
 
 ## Features
-Retrieve recent ranked solo queue matches.  
-Extract champion, KDA, and match results.  
-Store match data in JSON.  
-Prevent duplicate records.  
-Automate Python execution and dependency installation through Jenkins.  
-Securely manage API credentials using Jenkins Credentials.  
+* Retrieve recent ranked solo queue matches  
+* Extract champion, KDA, and match results  
+* Store match data in JSON with duplicate detection  
+* Automate execution through Jenkins Pipeline  
+* Manage API credentials securely using Jenkins Credentials
 
 ## Pipeline
 <img width="1899" height="671" alt="image" src="https://github.com/user-attachments/assets/4be9a05b-6821-40e1-8ece-593a4b0c3a62" />
 GitHub → Jenkins → Checkout → Install Dependencies → Run Python Script → Riot Games API → JSON
 
 ## Future Development
-* Track multiple professional players.  
-* Add competitive match data.  
-* Implement performance statistics and data analysis.  
-* Add automated testing and cloud deployment.  
+* Track multiple professional players  
+* Add competitive match data  
+* Implement performance statistics and data analysis  
+* Add automated testing and cloud deployment  
