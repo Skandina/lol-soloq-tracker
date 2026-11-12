@@ -17,6 +17,11 @@ pipeline {
                 echo 'Preparing Python environment'
             }
         }
+        stage('Install Dependencies') {
+            steps {
+                bat '"C:\\Python311\\python.exe" -m pip install -r requirements.txt'
+            }
+        }
 
         stage('Test') {
             steps {
