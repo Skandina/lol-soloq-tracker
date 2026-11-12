@@ -7,7 +7,11 @@ pipeline {
                 echo 'Checking out LoL SoloQ Tracker'
             }
         }
-
+    stage('Check Python') {
+        steps {
+            bat '"C:\\Python311\\python.exe" --version'
+            }
+        }
         stage('Build') {
             steps {
                 echo 'Preparing Python environment'
